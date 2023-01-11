@@ -1,0 +1,118 @@
+.body {
+    height: 100%;
+    background-color: #F29881;
+}
+  .logo {
+    float: left;
+    margin: 20px;
+  }
+.NavBar {
+    text-align: center;
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-color: #17706E ;  
+ 
+   }
+
+  .icon {
+    float: right;
+    margin-left: 20px;
+  }  
+  .p {
+    float: center;
+    margin-bottom: auto;
+  }
+  h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: bottom;
+  }
+  
+  .navButtonContainer{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    position: center;
+    bottom: 0px;
+  }  
+  .navButton{
+    color:white;
+    background-color: #17706E;
+    border: none;
+    float: center;
+    bottom: 0px;
+  }
+  .H2 {
+    color:#17706E;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+  }
+.container {
+position: absolute;
+width: 1277px;
+height: 446px;
+left: 81px;
+top: 413px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+border-radius: 30px;
+}
+
+
+  * {box-sizing: border-box}
+
+
+    input, input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .Submit {
+    padding: 14px 20px;
+    background-color: #17706E;
+    color: #FFFFFF;
+    border: none;
+  }
+  
+
+  .Submit, .signupbtn {
+    float: left;
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  .clearfix::after {
+  
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
